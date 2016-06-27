@@ -1,0 +1,17 @@
+<body>
+    <div class="container">
+        <header>
+            <h1>Meeting Magic</h1>
+        </header>
+
+        {{> login}}
+    </div>
+</body>
+
+<template name="login">
+    <form id="login-form">
+        <input type="text" name="uname" placeholder="Username"/>
+        <input type="password" name="pwd" placeholder="Password"/>
+        <button type="submit">Submit</button>
+    </form>
+</template>
